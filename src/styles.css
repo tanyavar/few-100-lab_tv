@@ -1,3 +1,39 @@
 h1 {
-    color:red;
+    color:rgb(119, 0, 255);
 }
+#container {
+    -ms-flex-item-align: center;
+    align-self: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 30em;
+    width: 25%;
+    min-width: 300px;
+    -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.479);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.479);
+    background-color: rgb(247, 228, 228);
+    margin: 100px auto;
+}
+.error {
+    border:2px solid red;
+  }
+  
+
+  input {
+      width : 10em;
+    border-bottom: 1px solid #495867;
+    border-top: 1px solid #495867;
+    border-right:1px solid #495867;
+    border-left: 1px solid #495867;
+}
+
+table {
+width: 80%;
+height : 40%;
+border: 1px solid black;
+align-self: center;
+margin-left: 30px
+}
+
+
+

@@ -1,10 +1,43 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Webpack Showcase</title>
-</head>
-<body>
-    <h1>Welcome to Class.</h1>
-</body>
-</html>
+<div id="container">
+    <h1>Tip Calculator</h1>
+    <div id="calculator">
+      <form>
+        <p>
+          <p>
+            $ <input id="billamt" type="numeric" placeholder="Bill Amount">
+      </form>
+      <button type="button" id="10" >10%</button>
+      <button type="button" id="15" >15%</button>
+      <button type="button" id="20" >20%</button>
+    </div>
+    <div id="totalTip"  >
+       <p >You are tipping <span id="tipPrcnt">0.00</span>%</p>
+      </div>
+      <table >
+        <tr><td>
+      <div id="tipPrcnt">
+        Bill Amount: $<span id="bill">0.00</span>
+      </div>
+   </td> </tr>
+    <tr><td>
+            <div id="Tip"  >
+        <p >Tip Percentage: <span id="Prcnt">0.00</span>%</p>
+       </div>
+      </td> </tr>
+      <tr><td>
+    <div id="amountTip">
+      Amount of tip: $<span id="tip">0.00</span>
+      <small id="each"></small>
+    </div>   
+  </td></tr>
+  <tr><td>
+    <div id="totPay">
+      Total to be Paid: $<span id="totalPay">0.00</span>
+      <small id="each"></small>
+    </div>
+  </td></tr>
+  </table>
+  </div>
+  <!--container end-->
+  
+  <script type="text/javascript" src="index.js"></script>
